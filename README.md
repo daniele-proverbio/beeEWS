@@ -1,7 +1,12 @@
 # beeEWS
 Code for paper on EWS and bee fitness
 
-## Content
+## Content: simulations
+### WC_model_clean:
+Simulates the model from Khoury et al (2011) described in the paper, in its stochastic version using sdeint, saving its results in a database for subsequent analysis. Then, extracts and estimates EWS related to AC(1), Variance and Entropy, for different sampling resolutions.
+
+
+## Content: data analysis
 
 ### analysisTemperature_low_freq: 
 Analyse temperature data for the low-frequency dataset.  
@@ -35,7 +40,8 @@ Extract and analyse statistical indicators and EWS for the high-frequency datase
 Estimates nullclines, vector field, equilibria and their stability, for the model by Khoury et al (2011) analysed in the paper. Plots the results, for different values of $m$; change index of mu_values at line 47 to get the tested values (0.2, 0.4 or $m_c$).
 
 ## Utils
-The code is in MATLAB. The functions require the symbolic toolbox and the signal processing toolbox. Tested on MATLAB 2025b.
+The code for data analysis is in MATLAB. The functions require the symbolic toolbox and the signal processing toolbox. Tested on MATLAB 2025b.  
+The code for simulations is in Python. On top of typical libraries, it requires the sdeint package. Tested on Python 3.13.
 
 ## Data
 Data avialability as described in the paper.
