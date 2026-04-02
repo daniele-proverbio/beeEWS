@@ -44,7 +44,7 @@ The code for data analysis is in MATLAB. The functions require the symbolic tool
 The code for simulations is in Python. On top of typical libraries, it requires the sdeint package. Tested on Python 3.13.
 
 ## Data
-Data avialability as described in the paper.
+Data availability as described in the paper.
 
 ## Credits
 Code developed by Daniele Proverbio. If you reuse the code in full or in part, please cite the original manuscript: "Early waring signals based on critical slowing down have little
