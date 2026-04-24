@@ -7,6 +7,8 @@ clc; clear; close all
 
 %% 1 -- Daily-sampled average temperatures
 % Load data
+% Update the folder where you save the dataset
+
 data_DatasetInternalInfested = readmatrix('C:\Users\danie\Documents\POSTDOC_Trento\Projects\Api_bistability\data\data_temperature\Dataset_internal_infested');
 data_DatasetInternalUninfested = readmatrix('C:\Users\danie\Documents\POSTDOC_Trento\Projects\Api_bistability\data\data_temperature\Dataset_internal_uninfested');
 data_DatasetExternal = readmatrix('C:\Users\danie\Documents\POSTDOC_Trento\Projects\Api_bistability\data\data_temperature\Dataset_external');
