@@ -3,6 +3,8 @@
 clc; clear; close all;
 
 %% From Udine Dataset, load data
+% Update the folder where you save the dataset
+
 % Temperature
 data = readmatrix('C:\Users\danie\Documents\POSTDOC_Trento\Projects\Api_bistability\data\sonde_2F\all_temperature.xlsx');
 
