@@ -1,5 +1,5 @@
 # CSD-based EWS for honeybee colony fragility
-Code and data to reproduce the results in paper on EWS and honeybee colony dynamics.
+Code and data to reproduce the results in paper "Early waring signals based on critical slowing down have little practical applicability to anticipate honeybee health collapse", about the possibility to estimate and use Critical-Slowing-Down (CSD) based Early Warning Signals (EWS) to monitor honeybee colony dynamics.
 
 ## Codes
 ### Model simulations and computational EWS
